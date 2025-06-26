@@ -1,0 +1,20 @@
+# Entornos virtuales
+.venv/
+env/
+venv/
+
+# Archivos de Jupyter temporales
+*.ipynb_checkpoints/
+
+# Archivos Python compilados
+__pycache__/
+*.py[cod]
+
+# Datos y salidas
+*.csv
+*.log
+*.json
+
+# Otros
+.DS_Store
+.env
