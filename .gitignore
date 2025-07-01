@@ -6,6 +6,11 @@ venv/
 # Archivos de Jupyter temporales
 *.ipynb_checkpoints/
 
+# Archivos de pruebas
+
+pruebas.py
+pruebas.ipynb
+
 # Archivos Python compilados
 __pycache__/
 *.py[cod]
