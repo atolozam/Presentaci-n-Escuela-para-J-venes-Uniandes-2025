@@ -10,7 +10,7 @@ def get_tweets_by_search(search_query, limit_tweets=None):
     url = "https://api.twitterapi.io/twitter/tweet/advanced_search"
     
     # 🔑 Reemplaza con tu API key real
-    headers = {"X-API-Key": "1deb4be30bd949899650f493714c46f3"}
+    headers = {"X-API-Key": "API_KEY_AQUI"}
     
     # 📋 Query Parameters base
     base_params = {
@@ -170,7 +170,7 @@ def get_tweet_responses(tweet_id, limit_responses=None, since_time=None, until_t
     url = "https://api.twitterapi.io/twitter/tweet/replies"
     
     # 🔑 Usar la misma API key
-    headers = {"X-API-Key": "1deb4be30bd949899650f493714c46f3"}
+    headers = {"X-API-Key": "API_KEY_AQUI"}
     
     # 📋 Query Parameters base
     base_params = {
@@ -326,7 +326,7 @@ def get_tweet_retweets(tweet_id, limit_responses=None, continue_in=None):
     url = "https://api.twitterapi.io/twitter/tweet/retweeters"
     
     # 🔑 Usar la misma API key
-    headers = {"X-API-Key": "1deb4be30bd949899650f493714c46f3"}
+    headers = {"X-API-Key": "API_KEY_AQUI"}
     
     # 📋 Query Parameters base
     base_params = {
